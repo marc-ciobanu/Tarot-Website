@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div classs="title">
+        <p class="titlu">Tarot  Online</p>
+    </div>
+    <section class="carti">
+        <div class="card">
+            <img id="back1" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(0)">
+        </div>
+        <div onclick="popUp2()" class="card">
+            <img id="back2" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(1)">
+        </div>
+        <div onclick="popUp3()" class="card">
+            <img id="back3" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(2)">
+        </div>
+    </section>
+
+    <section class="slot-section">
+        <div class="slot-div">
+            <p class="slot-text">trecut</p>
+        </div>
+        <div class="slot-div">
+            <p class="slot-text">prezent</p>
+        </div>
+        <div class="slot-div">
+            <p class="slot-text">viitor</p>
+        </div>
+    </section>
+
+    <div>
+        <button onclick="changeImg()" class="buton-citire">c i t i r e</button>
+    </div>
+
+    <div class="pop-up" id="pop-up">
+        <div class="card pop-up-card">
+            <img id="back2" class="img-back" src="back.jpg" alt="back">
+        </div>
+        <div class="pop-up-text">
+            <h1 class="pop-up-heading">The bitch</h1>
+            <p class="pop-up-p">geaina card</p>
+        </div>
+    </div>
+</body>
+
+</html>
