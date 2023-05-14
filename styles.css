@@ -26,6 +26,9 @@ body{
     height: 400px;
     background-color: #f0e8db;
     border-radius: 18px;
+    border-style: none;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .img-back{
