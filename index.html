@@ -16,16 +16,16 @@
     <div classs="title">
         <p class="titlu">Tarot  Online</p>
     </div>
-    <section class="carti">
-        <div class="card">
-            <img id="back1" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(0)">
-        </div>
-        <div onclick="popUp2()" class="card">
-            <img id="back2" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(1)">
-        </div>
-        <div onclick="popUp3()" class="card">
-            <img id="back3" class="img-back" src="back.jpg" alt="back" onclick="displayPopup(2)">
-        </div>
+    <section class="carti" id="carti">
+        <button class="card" id="card1" onclick="buton1()">
+            <img id="back1" class="img-back" src="back.jpg" alt="back">
+        </button>
+        <button class="card" id="card2">
+            <img id="back2" class="img-back" src="back.jpg" alt="back">
+        </button>
+        <button class="card" id="card3">
+            <img id="back3" class="img-back" src="back.jpg" alt="back">
+        </button>
     </section>
 
     <section class="slot-section">
@@ -44,7 +44,7 @@
         <button onclick="changeImg()" class="buton-citire">c i t i r e</button>
     </div>
 
-    <div class="pop-up" id="pop-up">
+    <div class="pop-up" id="pop-up" onclick="disparePopup()">
         <div class="card pop-up-card">
             <img id="back2" class="img-back" src="back.jpg" alt="back">
         </div>
